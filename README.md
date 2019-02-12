@@ -17,7 +17,9 @@ Test para la calidad del agua
 Esta es la ventana en la que debemos ingresar los parámetros obtenidos a partir de una muestra de agua
 previamente tomada.
 
-![Ventana para el ingreso de datos](Test_ver2/images/frame.png)
+<p align="center">
+  <img width="697" height="134" src="Test_ver2/images/frame.png">
+</p>
 
 Este es el mensaje que nos muestra el software como salida luego de evaluar los parámetros ingresados en el
 sistema experto basado en reglas .
