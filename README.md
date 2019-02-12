@@ -24,9 +24,13 @@ previamente tomada.
 Este es el mensaje que nos muestra el software como salida luego de evaluar los parámetros ingresados en el
 sistema experto basado en reglas .
 
-![Cuadro de dialogo con el resultado](Test_ver2/images/dialog_message.png)
+<p align="center">
+  <img width="286" height="126" src="Test_ver2/images/dialog_message.png">
+</p>
 
 Finalmente nos muestra una gráfica en la cual podemos observar los rangos de calidad establecidos para
 determinar la calidad del agua, y también podemos observar a cual de estos rangos corresponde el valorobtenido de los cálculos de nuestro sistema experto.
 
-![Gráfica que nos muestra el rango al cual pertenece el resultado obtenido previamente](Test_ver2/images/graph.png)
+<p align="center">
+  <img width="1183" height="685" src="Test_ver2/images/graph.png">
+</p>
