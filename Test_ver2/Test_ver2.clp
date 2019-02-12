@@ -77,25 +77,25 @@
 	)
 	(if
 		(and
-			(>= ?total 71)(<= ?total 90)
+			(>= ?total 71)(<= ?total 90.99)
 		)then
 			(assert (Calidad (calidad "Buena")))
 	)
 	(if
 		(and
-			(>= ?total 51)(<= ?total 70)
+			(>= ?total 51)(<= ?total 70.99)
 		)then
 			(assert (Calidad (calidad "Regular")))	
 	)
 	(if
 		(and
-			(>= ?total 26)(<= ?total 50)
+			(>= ?total 26)(<= ?total 50.99)
 		)then
 			(assert (Calidad (calidad "Mala")))	
 	)
 	(if
 		(and
-			(>= ?total 0)(<= ?total 25)
+			(>= ?total 0)(<= ?total 25.99)
 		)then
 			(assert (Calidad (calidad "Pesima")))	
 	)
