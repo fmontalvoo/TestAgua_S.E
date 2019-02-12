@@ -7,16 +7,16 @@ class Graficas:
 		pass
 		
 	def graficar(self, p):
-		x1 = [0, 10, 15, 25]
-		y1 = [0, 1, 1, 0]
+		x1 = [0, 15, 25]
+		y1 = [1, 1, 0]
 		x2 = [25, 35, 40, 50]
 		y2 = [0, 1, 1, 0]
 		x3 = [50, 56.6, 62.6, 70]
 		y3 = [0, 1, 1, 0]
 		x4 = [70, 76.6, 82.6, 90]
 		y4 = [0, 1, 1, 0]
-		x5 = [90, 93.33, 96.33, 100]
-		y5 = [0, 1, 1, 0]
+		x5 = [90, 93.33, 100]
+		y5 = [0, 1, 1]
 		pp.title('Resultado Obtenido')
 		pp.plot(x1, y1,'gray', linewidth=3.0, label='Pesima')
 		pp.plot(x2, y2,'red', linewidth=3.0, label='Mala')
