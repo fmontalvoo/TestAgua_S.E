@@ -1,3 +1,30 @@
-# Sistemas Expertos
-# Software para la trata de aguas
-# Alumno: Frank Montalvo Ochoa
+Software para la trata de aguas
+===============================
+
+Se trata de un software especialmente desarrollado para la evaluación de la calidad del agua en base a
+ciertos parámetros que podemos ingresar en el mismo, los cuales pasan a través de un sistema experto basado
+en reglas, el cual puede inferir si la calidad del agua es:
+
+* **Pésima**
+* **Mala**
+* **Regular**
+* **Buena**
+* **Excelente**
+
+Test para la calidad del agua
+-----------------------------
+
+Esta es la ventana en la que debemos ingresar los parámetros obtenidos a partir de una muestra de agua
+previamente tomada.
+
+![Ventana para el ingreso de datos](Test_ver2/images/frame.png)
+
+Este es el mensaje que nos muestra el software como salida luego de evaluar los parámetros ingresados en el
+sistema experto basado en reglas .
+
+![Cuadro de dialogo con el resultado](Test_ver2/images/dialog_message.png)
+
+Finalmente nos muestra una gráfica en la cual podemos observar los rangos de calidad establecidos para
+determinar la calidad del agua, y también podemos observar a cual de estos rangos corresponde el valorobtenido de los cálculos de nuestro sistema experto.
+
+![Gráfica que nos muestra el rango al cual pertenece el resultado obtenido previamente](Test_ver2/images/graph.png)
