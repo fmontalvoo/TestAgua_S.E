@@ -29,7 +29,7 @@ sistema experto basado en reglas .
 </p>
 
 Finalmente nos muestra una gráfica en la cual podemos observar los rangos de calidad establecidos para
-determinar la calidad del agua, y también podemos observar a cual de estos rangos corresponde el valorobtenido de los cálculos de nuestro sistema experto.
+determinar la calidad del agua, y también podemos observar a cual de estos rangos corresponde el valor obtenido de los cálculos de nuestro sistema experto.
 
 <p align="center">
   <img width="1183" height="685" src="Test_ver2/images/graph.png">
