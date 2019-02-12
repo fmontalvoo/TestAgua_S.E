@@ -17,6 +17,7 @@ class Graficas:
 		y4 = [0, 1, 1, 0]
 		x5 = [90, 93.33, 96.33, 100]
 		y5 = [0, 1, 1, 0]
+		pp.title('Resultado Obtenido')
 		pp.plot(x1, y1,'gray', linewidth=3.0, label='Pesima')
 		pp.plot(x2, y2,'red', linewidth=3.0, label='Mala')
 		pp.plot(x3, y3,'yellow', linewidth=3.0, label='Regular')
@@ -26,5 +27,7 @@ class Graficas:
 		y = [0 , 1]
 		pp.plot(x, y, 'o--', color='black', label='Resultado: '+str(p))
 		pp.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=2, borderaxespad=0.)
+		pp.ylabel('Pertenencia')
+		pp.xlabel('Calidad')
 		pp.grid(True)
 		pp.show()
