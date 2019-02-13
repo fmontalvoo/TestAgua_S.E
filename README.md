@@ -2,7 +2,7 @@ Software para la trata de aguas
 ===============================
 
 Se trata de un software especialmente desarrollado para la evaluación de la calidad del agua en base a
-ciertos parámetros que podemos ingresar en el mismo, los cuales pasan a través de un sistema experto basado
+ciertos parámetros que podemos ingresar en el mismo los cuales pasan a través de un sistema experto basado
 en reglas, el cual puede inferir si la calidad del agua es:
 
 * **Pésima**
